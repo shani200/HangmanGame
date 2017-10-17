@@ -1,0 +1,45 @@
+.alert-zone {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    flex-shrink: 0;
+    position: relative;
+    border-left: 2px solid #2c5880;
+    font-size: 35px;
+    color:rgba(10, 56, 101, 0.91);
+    background: lightblue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,rgba(23, 128, 170, 0.92),rgba(23, 128, 170, 0.22)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(right,rgba(23, 128, 170, 0.92),rgba(23, 128, 170, 0.22)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right,rgba(23, 128, 170, 0.92),rgba(23, 128, 170, 0.22)); /*Fx 3.6-15*/
+    background: linear-gradient(to right, rgba(23, 128, 170, 0.92), rgba(23, 128, 170, 0.22)); /*Standard*/
+}
+
+.message{
+    position: relative;
+   /* animation-timing-function: ease;
+    -webkit-animation: move 7s infinite;
+    animation: move 7s infinite;*/
+}
+
+@-webkit-keyframes move {
+    0%   { top:0px;}
+    25%  { top:-200px;}
+    50% { top:0px;}
+    75%  {  top:200px; }
+    100% { top:0px;}
+}
+
+/* Standard syntax */
+@keyframes move {
+    0%   { top:0px;}
+    25%  { top:-200px;}
+    50% { top:0px;}
+    75%  {  top:200px; }
+    100% { top:0px;}
+}

@@ -1,0 +1,28 @@
+.playword {
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    padding: 60px;
+    background-color: rgba(52, 116, 141, 0.18);
+}
+
+.guess-word {
+    margin : 10px;
+}
+
+
+.guss-zone-header{
+    background-color: #65686d;
+    flex-shrink: 0;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 1px 15px;
+    height: 40px;
+    /*-webkit-animation: mymove 5s infinite;
+    animation: mymove 5s infinite;*/
+}

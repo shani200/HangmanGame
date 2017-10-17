@@ -1,0 +1,60 @@
+.flex-container{
+    display: -webkit-flex;
+    display: flex;
+    background-color: lightgrey;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    font-size: 19px;
+    max-height: 30px;
+    padding: 10px 20px 10px 15px;
+}
+
+
+.flex-item1{
+     color:royalblue;
+     width: 100px;
+     margin: 30px 10px;
+     padding: 10px;
+     box-sizing: border-box;
+ }
+
+.name{
+    position: relative;
+    /*-webkit-animation: example 7s infinite;
+    animation: example 7s infinite;*/
+}
+
+@-webkit-keyframes example {
+    0%   {color: rgba(97, 126, 255, 0.43); left:0px; top:0px;}
+    50%  {color: #ffafde; left:700px; top:0px;}
+    100%  {color: #fffdb2; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {color: rgba(89, 109, 255, 0.43); left:0px; top:0px;}
+    50%  {color: #ffafde; left:700px; top:0px;}
+    100%  {color: #fffdb2; left:0px; top:0px;}
+}
+
+.login{
+    padding: 7px 11px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 19px;
+    max-height: 30px;
+    border-radius: 6px;
+    margin-right: 0px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
