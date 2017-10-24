@@ -10,8 +10,6 @@ export default class Header extends React.Component {
                     <div className="login">
                         <span>Login</span>
                     </div>
-                
-
             </div>
         );
     }
