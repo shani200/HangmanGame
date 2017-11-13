@@ -19,12 +19,12 @@
       return null
      }
      let letterIndexes = this.isLetterExists(letter);
-     if(letterIndexes.length==0){
+     if(letterIndexes.length===0){
       alert("letter doesn't exists in this word");
     }
      else{
        let remainsLetter = this.hangmanCommonService.updateNumberOfRemainLetterToGuess(letterIndexes.length);
-        if(remainsLetter==0){
+        if(remainsLetter===0){
          this._footer. updateMessage("YOU WIN!");
         }
        this._body.updateListOfLettersAfterGussing(letterIndexes,letter)
